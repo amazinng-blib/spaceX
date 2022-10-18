@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./tech_image/background-technology-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow-x: hidden;
+}
+
+.tech-container {
+  display: flex;
+  width: 90%;
+  margin-left: auto;
+  padding-right: 0.4rem;
+}
+.tech-container article h3 {
+  color: aliceblue;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0.2rem 0;
+}
+
+.tech-container article h4 {
+  color: #dddddd;
+  opacity: 0.2;
+  font-weight: 400;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.tech-container section {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech-container section ul {
+  color: #fff;
+  max-width: 80%;
+}
+
+.tech-container section ul li {
+  border: 1px solid #dddddd;
+  margin: 1rem;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  cursor: pointer;
+  color: grey;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.tech-container section article {
+  line-height: 1.3;
+  max-width: 80%;
+  padding-right: 1rem;
+  color: #aeaeae;
+}
+
+.tech-container figure {
+  width: 90%;
+  margin: auto;
+}
+
+.tech-container figure img {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .tech-container {
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    padding: 0 1rem;
+  }
+
+  .tech-container section article {
+    max-width: 100%;
+  }
+
+  .tech-container figure {
+    margin-top: 1rem;
+    width: 97%;
+  }
+}

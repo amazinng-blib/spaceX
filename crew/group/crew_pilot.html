@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../crew.css" />
+    <link rel="stylesheet" href="../../destination/destination.css" />
+    <link rel="stylesheet" href="../../home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Crew_pilot</title>
+  </head>
+  <body>
+    <nav>
+      <div class="img-container">
+        <img src="../../images/star-img.png" alt="icon" />
+      </div>
+      <span class="line"></span>
+      <span class="bars">
+        <i class="fa fa-bars"></i>
+      </span>
+      <ul class="links">
+        <li>
+          <a href="../../home.html">00 home</a>
+        </li>
+        <li>
+          <a href="../../destination/destination.html">01 destination</a>
+        </li>
+        <li>
+          <a href="#">02 crew</a>
+        </li>
+        <li>
+          <a href="../../technology/tech.html">03 Technology</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <h2><span>02</span> Meet your crew</h2>
+      <section class="crew-body-container">
+        <article>
+          <h4>Pilot</h4>
+          <h3>Victor Glover</h3>
+          <p>
+            Pilot on the first operational flight of the SpaceX Crew Dragon to
+            the International Space Station. Glover is a commander in the U.S.
+            Navy where he pilots an F/A-18.He was a crew member of Expedition
+            64, and served as a station systems flight engineer.
+          </p>
+          <div class="buttons">
+            <a onclick='window.location = "/crew/crew.html"'>
+              <input type="radio" name="radio" id="radio-1"
+            /></a>
+            <a onclick='window.location = "../group/crew_engineer.html"'>
+              <input type="radio" name="radio" id="radio-2"
+            /></a>
+            <a href="#">
+              <input type="radio" name="radio" id="radio-3" checked
+            /></a>
+            <a onclick='window.location = "../group/crew_specialist.html"'>
+              <input type="radio" name="radio" id="radio-3" />
+            </a>
+          </div>
+        </article>
+        <figure>
+          <img
+            src="../crew_images/image-victor-glover.webp"
+            alt="victor-glover"
+          />
+        </figure>
+      </section>
+      <footer class="footer">
+        <span>&copy; <i>Nwankwo Ernest Onyebuchi 2022</i></span>
+      </footer>
+    </main>
+    <script src="../../index.js"></script>
+  </body>
+</html>
